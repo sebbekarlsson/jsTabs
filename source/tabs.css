@@ -20,6 +20,9 @@ ul.tabs_nav {
     letter-spacing: -1px;
     color: #2ecc71;
 }
+.tabs_nav li.active a {
+    color: white;
+}
 .tabs_content {
     clear: both;
     border-top: 1px solid #2ecc71;
