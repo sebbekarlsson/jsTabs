@@ -9,6 +9,10 @@ ul.tabs_nav {
     border-left-color: #2ecc71;
     border-left-width: 1px;
 
+    border-left-style: solid;
+    border-left-color: #2ecc71;
+    border-left-width: 1px;
+
     border-right-style: solid;
     border-right-color: #2ecc71;
     border-right-width: 1px;
@@ -16,14 +20,15 @@ ul.tabs_nav {
     border-top-style: solid;
     border-top-color: #2ecc71;
     border-top-width: 1px;
-    border-bottom: none;
 
-    background-color: black;
+    border-bottom: 1px solid #2ecc71;
+
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
     cursor: pointer;
 }
 .tabs_nav li.active {
-    background-color: black;
+    border-bottom: none;
 }
 .tabs_nav a {
     text-decoration: none;
@@ -37,5 +42,5 @@ ul.tabs_nav {
 .tabs_content {
     clear: both;
     padding: 20px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7)
 }
