@@ -5,13 +5,24 @@ ul.tabs_nav {
 .tabs_nav li {
     display: inline;
     float: left;
-    border: 1px solid #2ecc71;
+    border-left-style: solid;
+    border-left-color: #2ecc71;
+    border-left-width: 1px;
+
+    border-right-style: solid;
+    border-right-color: #2ecc71;
+    border-right-width: 1px;
+
+    border-top-style: solid;
+    border-top-color: #2ecc71;
+    border-top-width: 1px;
+    border-bottom: none;
+
     background-color: black;
     padding: 5px;
     cursor: pointer;
 }
 .tabs_nav li.active {
-    border-bottom: 1px solid #2ecc71;
     background-color: black;
 }
 .tabs_nav a {
@@ -25,7 +36,6 @@ ul.tabs_nav {
 }
 .tabs_content {
     clear: both;
-    border-top: 1px solid #2ecc71;
     padding: 20px;
     background-color: black;
 }
